@@ -9,25 +9,17 @@ let db = [];
 
 async function carregarDados() {
     try {
+        // Busca a lista direta de produtos
         const response = await fetch('produtos.json?v=' + Date.now());
-        const dados = await response.json();
+        const dadosBrutos = await response.json();
 
-        // DESTRAVAMENTO DE INTERAÇÃO
-        document.body.style.pointerEvents = 'auto';
-        document.body.style.overflow = 'auto';
-        document.documentElement.style.pointerEvents = 'auto';
+        // Se o bot mandou o formato novo por engano, ele corrige aqui também
+        const lista = Array.isArray(dadosBrutos) ? dadosBrutos : dadosBrutos.estoque;
 
-        // Lógica de compatibilidade: aceita tanto Lista [] quanto Objeto {estoque:[]}
-        const listaBruta = Array.isArray(dados) ? dados : (dados.estoque || []);
-        
-        db = listaBruta.map(p => new Produto(
-            p.id, p.nome, p.preco, p.tipo, p.link, p.specs, p.imgs
-        ));
-
+        db = lista.map(p => new Produto(p.id, p.nome, p.preco, p.tipo, p.link, p.specs, p.imgs));
         render(db);
-        console.log("Vitrine carregada com sucesso.");
     } catch (e) {
-        console.error("Erro ao carregar banco de dados:", e);
+        console.error("Erro ao carregar vitrine:", e);
     }
 }
 
@@ -35,28 +27,35 @@ function render(lista) {
     const vitrine = document.getElementById('vitrine');
     if (!vitrine) return;
     
-    if (lista.length === 0) {
-        vitrine.innerHTML = "<p style='grid-column:1/-1; text-align:center; padding:50px;'>Nenhum item disponível no momento.</p>";
-        return;
-    }
-
     vitrine.innerHTML = lista.map(p => `
         <div class="product-card" onclick="openModal('${p.id}')">
             <span class="id-badge">#${p.id}</span>
             <img src="${p.imgs[0]}" onerror="this.src='https://via.placeholder.com/500'">
             <h3>${p.nome}</h3>
-            <p style="color:var(--primary); font-weight:bold;">${p.preco}</p>
+            <p style="color:var(--primary); font-weight:800;">${p.preco}</p>
         </div>
     `).join('');
 }
 
-// Inicia o processo
-carregarDados();
+// Abre o Modal com o Botão da Shopee restaurado
+function openModal(id) {
+    const p = db.find(i => i.id === id);
+    if (!p) return;
 
-// Funções de Menu (Mantendo seu layout original)
-function toggleMenu() {
-    const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('overlay');
-    sidebar.classList.toggle('open');
-    overlay.style.display = sidebar.classList.contains('open') ? 'block' : 'none';
+    document.getElementById('mTitle').innerText = p.nome;
+    document.getElementById('mPrice').innerText = p.preco;
+    document.getElementById('mSpecs').innerText = p.specs;
+
+    const btnShopee = document.getElementById('mShopeeBtn');
+    if (p.link && p.link !== "#") {
+        btnShopee.href = p.link;
+        btnShopee.style.display = "block";
+    } else {
+        btnShopee.style.display = "none";
+    }
+
+    document.getElementById('modalOverlay').style.display = 'flex';
 }
+
+carregarDados();
+        
