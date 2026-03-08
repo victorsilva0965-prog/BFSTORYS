@@ -1,20 +1,16 @@
-[
-  {
-    "id": "S10",
-    "nome": "Smartwatch Ultra S10 Microwear",
-    "preco": "R$ 138,99",
-    "tipo": "smart",
-    "link": "https://s.shopee.com.br/1VuE9ZUJYT?share_channel_code=1",
-    "specs": "GPS, Séries 10, 49mm",
-    "imgs": ["IMG/R.png"]
-  },
-  {
-    "id": "NV-CH1",
-    "nome": "NAVIFORCE CHRONOGRAPH",
-    "preco": "R$ 123,20",
-    "tipo": "quartz",
-    "link": "https://s.shopee.com.br/4frHhEQLPW?_channel_code=1",
-    "specs": "vidro safira, aço inox",
-    "imgs": ["IMG/w69.png"]
-  }
-]
+{
+    "status": "online",
+    "estoque": [
+        {
+            "id": "S24",
+            "nome": "glock 18",
+            "preco": "Sob consulta",
+            "tipo": "smart",
+            "link": "#",
+            "specs": "Disponível",
+            "imgs": [
+                "https://via.placeholder.com/500"
+            ]
+        }
+    ]
+}
