@@ -9,5 +9,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpV8QAJYFC79fVViY0ya1eVCJzEh-p83FE23DADrxF1FIURu4yuvUkakpg4DaIA8OEEzt9GRyKQYYu8zu57eMkxykGbJRAYgaDwR9AQcDXeu_lM_WM7XYBjA"
         ]
+    },
+    {
+        "id": "9",
+        "nome": "Thg",
+        "preco": "R$ 15.105,00",
+        "tipo": "Teste",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRIELZWC4jicsoHlx-90ai3-spqhyw5UAWRR4qFIVfVvmlkCVvE8qciK1T85X3KamEfdag_DKA7byWOWsW7dEzeAIqtIYXw"
+        ]
     }
 ]
