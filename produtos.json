@@ -31,16 +31,5 @@
         "imgs": [
             "https://serpapi.com/searches/69ace479634a635594d57e50/images/rBNtf1kCKkbhGVoDy8xsSFHgxnJBx7eBYXQhKd6QrRI.jpeg"
         ]
-    },
-    {
-        "id": "LENÇOU",
-        "nome": "peruca",
-        "preco": "R$ 84,98",
-        "tipo": "smart",
-        "link": "shope.com",
-        "specs": "Nova unidade em estoque",
-        "imgs": [
-            "https://serpapi.com/searches/69ace693fbbebb8ff565c265/images/efqj2-kiO8Oho4JwzCquQY7jI9tC4xeML5maBmkfVVU.jpeg"
-        ]
     }
 ]
