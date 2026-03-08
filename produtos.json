@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "E",
+        "nome": "Intercomunicador ",
+        "preco": "R$ 2.669,13 agora",
+        "tipo": "Smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTX_WC_tLSR0Zgayk5lB9OBYO2S_T-UtBv--2zsUIYSXH9ahFpk--gZwoFb_R6dNKXMF6RpOUAdkPHsfVnVEWqJL9SwKCMwFsZDG5mb5t0_IKtDbhlAGl4Grg"
+        ]
+    }
+]
