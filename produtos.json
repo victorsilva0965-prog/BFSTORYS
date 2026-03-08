@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "S24",
+        "nome": "S24 ultra",
+        "preco": "R$ 5.039,10 agora",
+        "tipo": "Smart",
+        "link": "Shopee.com",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRBamK0iEVSAguPHaNpS7Msef2sSizhPnwOHLNzw_e_EWHkTao5mkFJBAgTI7kNc2yPvODIISrUkiLInft_VlteA0qMT4EGR-f0-FXZCKnQH70N7W69m-DwRg"
+        ]
+    }
+]
