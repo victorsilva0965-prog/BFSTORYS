@@ -1,16 +1,5 @@
 [
     {
-        "id": "S10",
-        "nome": "Smartwatch Ultra S10 Microwear",
-        "preco": "R$ 279,90 agora",
-        "tipo": "smart",
-        "link": "https://s.shopee.com.br/1VuE9ZUJYT?share_channel_code=1",
-        "specs": "GPS, Séries 10, 49mm",
-        "imgs": [
-            "https://serpapi.com/searches/69ace419e171b9536659e0d4/images/JWoE7Jel1QvHWBKQWSg98Zw2JVvMjUBJOs4y3hqxmys.jpeg"
-        ]
-    },
-    {
         "id": "NV-CH1",
         "nome": "NAVIFORCE CHRONOGRAPH",
         "preco": "R$ 88,80",
