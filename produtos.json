@@ -22,17 +22,6 @@
         ]
     },
     {
-        "id": "B",
-        "nome": "Bota",
-        "preco": "R$ 99,90 agora",
-        "tipo": "smart",
-        "link": "#",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ67CJ65zaNqvMT9N10sbHvIFlMINATaN00CmXztNW3SgS4zxdGK425tWQSZKeaJ8mfFoWIof8qXW5zTWl9MCPkOMgWJysD"
-        ]
-    },
-    {
         "id": "R",
         "nome": "Relógio g shock",
         "preco": "R$ 749,00",
