@@ -1,16 +1,5 @@
 [
     {
-        "id": "WR",
-        "nome": "bolsa",
-        "preco": "R$ 170,99 agora",
-        "tipo": "smart",
-        "link": "shopee.com",
-        "specs": "Produto Original - BF STORY",
-        "imgs": [
-            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRVUbtLXw33EaWwQrgwnuc76YUx97Q9QKVm4tnJVbbKgFCx-YUa3KG7wEFg3GMIRY1Y2z8t89Tn4A5v_vQYxMZOmunx7OamgosZhHT76jasgx2WkzVZmgQrp-bL"
-        ]
-    },
-    {
         "id": "TR4",
         "nome": "glock18",
         "preco": "R$ 335,38",
