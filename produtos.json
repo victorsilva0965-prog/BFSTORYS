@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "P17",
+        "nome": "iPhone 17",
+        "preco": "R$ 6.479,10 agora",
+        "tipo": "Smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRn3jhr7Oh4Yd1O8XSVMu2HQdJbMS9P7eXKmJc8BHWBqn5--xYePdvveiutsGxKTGwPVHVCtQpiPPFQmrDDFA-Z_UF9icqpX_cFRQUe9TOAUuMhh69VG19HlTs"
+        ]
+    }
+]
