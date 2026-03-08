@@ -31,5 +31,16 @@
         "imgs": [
             "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSQTwTuabikuR2sZdI_i9KcYdExy2vBPnGHwY4qoyK_U3EGqP_3O7ReUeUFDZ6M7vQN8CRK6CUPg8cDQbNR_098sKbaWKc8jS6IYgfGaXXA_iySRGGTFQODkQ"
         ]
+    },
+    {
+        "id": "D",
+        "nome": "Dominó",
+        "preco": "R$ 10,00",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQk0mQS4hec0c6BiOYqm5nKeU0UmAxw_xmsg7PDXBkmZnmID3bh9zhDLbalwQi19WYpu8kaIlKw"
+        ]
     }
 ]
