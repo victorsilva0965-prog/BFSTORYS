@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "WR",
+        "nome": "bolsa",
+        "preco": "24",
+        "tipo": "smart",
+        "link": "shopee.com",
+        "specs": "Produto Original - BF STORY",
+        "imgs": [
+            "https://via.placeholder.com/500"
+        ]
+    }
+]
