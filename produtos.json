@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "G18",
+        "nome": "Glock 18",
+        "preco": "R$ 367,36",
+        "tipo": "quartz",
+        "link": "shopee.com",
+        "specs": "Nova unidade em estoque",
+        "imgs": [
+            "https://serpapi.com/searches/69aceadb55ba65d75dfc5b13/images/ePhEAlUU1MEsUeMO26siL0dGJoqyTPPdrwAx11-zHKM.jpeg"
+        ]
+    }
+]
