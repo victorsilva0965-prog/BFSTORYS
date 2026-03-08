@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "N",
+        "nome": "Notebook Samsung Galaxy ",
+        "preco": "R$ 5.489,10 agora",
+        "tipo": "Smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRQO7fywDRBnCHpmcbi_EK-5B_gmG4W3JQJafdv-l2z7D8vN9aFysCDPn5j2yFN71BtS5STMylpNHu7xm4ZZy6ByqwRA6pCsiPyuCgfFZ2npjO5ozt6PnG1tQ"
+        ]
+    }
+]
