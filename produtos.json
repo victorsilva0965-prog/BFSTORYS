@@ -1,16 +1,5 @@
 [
     {
-        "id": "23",
-        "nome": "balde",
-        "preco": "Sob consulta",
-        "tipo": "smart",
-        "link": "#",
-        "specs": "Disponível",
-        "imgs": [
-            "https://via.placeholder.com/500"
-        ]
-    },
-    {
         "id": "JK",
         "nome": "amoeba",
         "preco": "R$ 6,90",
