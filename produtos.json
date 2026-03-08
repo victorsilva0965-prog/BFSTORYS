@@ -22,17 +22,6 @@
         ]
     },
     {
-        "id": "8",
-        "nome": "Abc",
-        "preco": "R$ 63,50",
-        "tipo": "smart",
-        "link": "#",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSQTwTuabikuR2sZdI_i9KcYdExy2vBPnGHwY4qoyK_U3EGqP_3O7ReUeUFDZ6M7vQN8CRK6CUPg8cDQbNR_098sKbaWKc8jS6IYgfGaXXA_iySRGGTFQODkQ"
-        ]
-    },
-    {
         "id": "B",
         "nome": "Bota",
         "preco": "R$ 99,90 agora",
