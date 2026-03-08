@@ -42,5 +42,16 @@
         "imgs": [
             "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQk0mQS4hec0c6BiOYqm5nKeU0UmAxw_xmsg7PDXBkmZnmID3bh9zhDLbalwQi19WYpu8kaIlKw"
         ]
+    },
+    {
+        "id": "BT",
+        "nome": "Bateria automotiva",
+        "preco": "R$ 332,91 agora",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR-e083qmVZSmoQOrwHauw6hos5X-N68LxfiG5j127JJp3iL5vGaiNiuG4dY5w80CG2gOe2lx01hfl8dffKmhjEYiIKlwcf9Q"
+        ]
     }
 ]
