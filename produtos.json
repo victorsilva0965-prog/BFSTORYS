@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "5",
+        "nome": "Cafe",
+        "preco": "R$ 28,00",
+        "tipo": "Smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTj5peBf285YW5Zs_727WbAadMMqpcqTy7x0pywYmcvcgijhz67HJh5UsJwJH9B0ItN7qbPY3x8Y99PvT84XdgzxiYLyP0gc1QOHAfB-v1dln5MI6WwdsQV9Q"
+        ]
+    }
+]
