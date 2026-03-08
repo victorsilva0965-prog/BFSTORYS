@@ -9,5 +9,16 @@
         "imgs": [
             "https://via.placeholder.com/500"
         ]
+    },
+    {
+        "id": "TR4",
+        "nome": "glock18",
+        "preco": "R$ 335,38",
+        "tipo": "relogio",
+        "link": "shopee.com",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTanaP9laYO9125dUifO15V0tLXtNf5OWP910Usuf2vfyzp-SA"
+        ]
     }
 ]
