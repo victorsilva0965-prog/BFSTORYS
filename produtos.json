@@ -33,17 +33,6 @@
         ]
     },
     {
-        "id": "S23",
-        "nome": "mouse rgb",
-        "preco": "R$ 215,00",
-        "tipo": "smart",
-        "link": "shopee.com",
-        "specs": "Nova unidade em estoque",
-        "imgs": [
-            "https://serpapi.com/searches/69ace5ce4707f147b185852b/images/sGe6mTr9uPtj1PwjjZYw1Cx4dVQa32Y6_3xwY7y_swk.jpeg"
-        ]
-    },
-    {
         "id": "LENÇOU",
         "nome": "peruca",
         "preco": "R$ 84,98",
