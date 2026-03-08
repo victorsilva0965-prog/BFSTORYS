@@ -9,5 +9,16 @@
         "imgs": [
             "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ2Ie7Ser_Ie_K8anpq6CQK0nMy9VhtLJB6CGf_0B3NTReWiHOM04-VZFetldM8req_IUO6z_F4XKrKq8OLVirRk61SOVzxWdA36U_-KJ41QebhNwG3KgKW"
         ]
+    },
+    {
+        "id": "26",
+        "nome": "Beg",
+        "preco": "R$ 44,90",
+        "tipo": "Relogio",
+        "link": "Shopee.com",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRtrKNBLKErT9F7ZJQO_d3rJwCyf9EptOlqFtC2DzE_Tt-fNjosd5NsKUE2VvYOPvoP2Fb6SJk"
+        ]
     }
 ]
