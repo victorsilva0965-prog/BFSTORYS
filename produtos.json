@@ -33,17 +33,6 @@
         ]
     },
     {
-        "id": "D",
-        "nome": "Dominó",
-        "preco": "R$ 10,00",
-        "tipo": "smart",
-        "link": "#",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQk0mQS4hec0c6BiOYqm5nKeU0UmAxw_xmsg7PDXBkmZnmID3bh9zhDLbalwQi19WYpu8kaIlKw"
-        ]
-    },
-    {
         "id": "B",
         "nome": "Bota",
         "preco": "R$ 99,90 agora",
