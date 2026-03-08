@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BF STORY - Vitrine Profissional</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="IMG/logo.png" class="profile-img" onerror="this.src='https://via.placeholder.com/80'">
+            <h3>BF VENDAS</h3>
+            <p style="font-size: 0.8rem; opacity: 0.8;">By CodeStudio</p>
+            
+        </div>
+        <div class="sidebar-content">
+            <a href="https://wa.me/558788044077" class="menu-link"><i class='bx bxl-whatsapp'></i> WhatsApp</a>
+            <a href="https://www.instagram.com/brunoflorentino30_?igsh=MTh3d3BpOXBqaWo4bw==" class="menu-link"><i class='bx bxl-instagram'></i> Instagram</a>
+            
+            
+                       <a href="https://www.instagram.com/brunoflorentino30_?igsh=MTh3d3BpOXBqaWo4bw==" class="menu-link"><i class='x-typ-info'></i>Preço Diferente?</a>
+            
+            
+            
+           
+           <!-- 
+            <div class="menu-link" onclick="toggleTheme()"><i class='bx bx-paint-roll'></i> Mudar Cor de Fundo</div>
+            -->
+        </div>
+        
+    </div>
+
+    <header>
+        <div class="top-nav">
+            <i class='bx bx-menu-alt-left menu-toggle' onclick="toggleMenu()"></i>
+            <span class="brand-name">BF VENDAS</span>
+        </div>
+        <div class="search-container">
+            <i class='bx bx-search-alt'></i>
+            <input type="text" class="search-input" id="searchID" placeholder="O que você procura hoje?" onkeyup="searchProduct()">
+        </div>
+    </header>
+
+    <div class="categories-container">
+        <div class="cat-item active" onclick="filterCat('todos', this)">
+            <div class="cat-icon"><i class='bx bx-grid-alt'></i></div>
+            <span>Todos</span>
+        </div>
+        <div class="cat-item" onclick="filterCat('smart', this)">
+            <div class="cat-icon"><i class='bx bx-mobile-alt'></i></div>
+            <span>Smart</span>
+        </div>
+        <div class="cat-item" onclick="filterCat('relogio', this)">
+            <div class="cat-icon"><i class='bx bx-time-five'></i></div>
+            <span>Relógios</span>
+        </div>
+       <!--  
+        <div class="cat-item" onclick="filterCat('tech', this)">
+            <div class="cat-icon"><i class='bx bx-chip'></i></div>
+            <span>Tech</span>
+        </div>
+         -->
+    </div>
+
+    <div class="main-content" id="vitrine"></div>
+
+    <div id="cart-fab" onclick="sendOrder()">
+        <i class='bx bxl-whatsapp' style="font-size: 30px;"></i>
+        <div id="cart-counter">0</div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation()" style="animation: slideUp 0.3s ease;">
+            <div class="carousel" id="carousel"></div>
+            <div class="modal-body">
+                <h2 id="mTitle" style="margin:0; font-size: 1.1rem;"></h2>
+                <div id="mPrice" style="color:var(--primary); font-size:1.4rem; font-weight:800; margin:8px 0"></div>
+                <div class="product-specs" id="mSpecs"></div>
+                <button class="btn-action btn-pedido" onclick="addToCart()">ADICIONAR AO PEDIDO</button>
+                <a id="mShopeeBtn" href="#" target="_blank" class="btn-action btn-shopee"><i class='bx bx-shopping-bag'></i> VER NA SHOPEE</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
