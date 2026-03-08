@@ -11,6 +11,17 @@
             "imgs": [
                 "https://via.placeholder.com/500"
             ]
+        },
+        {
+            "id": "S24",
+            "nome": "glock",
+            "preco": "Sob consulta",
+            "tipo": "smart",
+            "link": "#",
+            "specs": "Disponível",
+            "imgs": [
+                "https://via.placeholder.com/500"
+            ]
         }
     ]
 }
