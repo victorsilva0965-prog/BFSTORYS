@@ -9,16 +9,5 @@
         "imgs": [
             "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTanaP9laYO9125dUifO15V0tLXtNf5OWP910Usuf2vfyzp-SA"
         ]
-    },
-    {
-        "id": "P1",
-        "nome": "peruca",
-        "preco": "R$ 219,90",
-        "tipo": "relogio",
-        "link": "#",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcReZMiEVuasekBCkSHCgglLYv_6miAghVzOnGcUNxx4LcGoL546zlavEHwXNw"
-        ]
     }
 ]
