@@ -1,4 +1,16 @@
 {
     "status": "online",
-    "estoque": []
+    "estoque": [
+        {
+            "id": "K9",
+            "nome": "cano pvc",
+            "preco": "Sob consulta",
+            "tipo": "smart",
+            "link": "#",
+            "specs": "Disponível",
+            "imgs": [
+                "https://via.placeholder.com/500"
+            ]
+        }
+    ]
 }
