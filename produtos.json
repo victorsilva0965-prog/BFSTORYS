@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "B9",
+        "nome": "bola de futebol",
+        "preco": "R$ 52,76",
+        "tipo": "relogio",
+        "link": "shoope.com",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS-aJAfvo7r87aBZsWy_LCDKmzfNoW-vFwPwzQUqX0HLm-rURfSbt_czzRGHfGuamKNqKrmwK59iI_cvwCFzQBXFTjcUl7s"
+        ]
+    }
+]
