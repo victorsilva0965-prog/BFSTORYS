@@ -20,5 +20,15 @@
         "imgs": [
             "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcReZMiEVuasekBCkSHCgglLYv_6miAghVzOnGcUNxx4LcGoL546zlavEHwXNw"
         ]
+    },
+    {
+        "id": "26",
+        "nome": "Vassoura",
+        "preco": "R$ 12,99",
+        "tipo": "smart",
+        "link": "#",
+        "imgs": [
+            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT5CmoGXEdQwklmoi0wziAsLeBAl8vP56Mw3R32o8NuUUAyibwmDgcNtWiVIYncj5zkNESBIPnhvWZ5m1NqVBpSXZqzlRmdhka16owp8g39UQ8hwIxBlJ_AjA"
+        ]
     }
 ]
