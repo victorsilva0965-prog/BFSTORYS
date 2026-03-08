@@ -1,16 +1,5 @@
 [
     {
-        "id": "R",
-        "nome": "Relógio g shock",
-        "preco": "R$ 749,00",
-        "tipo": "relogio",
-        "link": "#",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRZC3EIZ0JUVwSRVAyFwklHgBB_oRxQ-yJKk2AxpZF9SILogBQ5GAA9oDnoe1fP6LVmtZLsrwNK0dDLk_fNMIJwuudSTjoB"
-        ]
-    },
-    {
         "id": "3",
         "nome": "Naviforce",
         "preco": "R$ 230,00 agora",
