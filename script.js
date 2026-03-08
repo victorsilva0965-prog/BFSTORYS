@@ -6,25 +6,28 @@ class Produto {
 }
 
 let db = [];
-let cart = [];
 
 async function carregarDados() {
     try {
-        // O v=Date.now() força o navegador a buscar a versão mais nova do GitHub
         const response = await fetch('produtos.json?v=' + Date.now());
         const dados = await response.json();
+
+        // DESTRAVAMENTO DE INTERAÇÃO
+        document.body.style.pointerEvents = 'auto';
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.pointerEvents = 'auto';
+
+        // Lógica de compatibilidade: aceita tanto Lista [] quanto Objeto {estoque:[]}
+        const listaBruta = Array.isArray(dados) ? dados : (dados.estoque || []);
         
-        // CORREÇÃO CRÍTICA: Acessa a lista dentro de 'estoque'
-        const listaProdutos = dados.estoque || [];
-        
-        db = listaProdutos.map(p => new Produto(
+        db = listaBruta.map(p => new Produto(
             p.id, p.nome, p.preco, p.tipo, p.link, p.specs, p.imgs
         ));
 
         render(db);
-        console.log("✅ Sistema restabelecido com " + db.length + " itens.");
+        console.log("Vitrine carregada com sucesso.");
     } catch (e) {
-        console.error("❌ Erro ao ler produtos.json:", e);
+        console.error("Erro ao carregar banco de dados:", e);
     }
 }
 
@@ -33,27 +36,27 @@ function render(lista) {
     if (!vitrine) return;
     
     if (lista.length === 0) {
-        vitrine.innerHTML = "<p style='text-align:center; padding:20px;'>Nenhum produto encontrado.</p>";
+        vitrine.innerHTML = "<p style='grid-column:1/-1; text-align:center; padding:50px;'>Nenhum item disponível no momento.</p>";
         return;
     }
 
     vitrine.innerHTML = lista.map(p => `
         <div class="product-card" onclick="openModal('${p.id}')">
-            <span class="id-badge">#ID ${p.id}</span>
-            <img src="${p.imgs[0]}" onerror="this.src='https://via.placeholder.com/500'" alt="${p.nome}">
+            <span class="id-badge">#${p.id}</span>
+            <img src="${p.imgs[0]}" onerror="this.src='https://via.placeholder.com/500'">
             <h3>${p.nome}</h3>
             <p style="color:var(--primary); font-weight:bold;">${p.preco}</p>
         </div>
     `).join('');
 }
 
-// Inicializa o site assim que carregar
+// Inicia o processo
 carregarDados();
 
-// Funções de interface originais
+// Funções de Menu (Mantendo seu layout original)
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('overlay');
-    if(sidebar) sidebar.classList.toggle('open');
-    if(overlay) overlay.style.display = sidebar.classList.contains('open') ? 'block' : 'none';
+    sidebar.classList.toggle('open');
+    overlay.style.display = sidebar.classList.contains('open') ? 'block' : 'none';
 }
