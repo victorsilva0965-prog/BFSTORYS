@@ -1,1 +1,13 @@
-[]
+[
+    {
+        "id": "2",
+        "nome": "Test1",
+        "preco": "R$ 6,49",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQpV8QAJYFC79fVViY0ya1eVCJzEh-p83FE23DADrxF1FIURu4yuvUkakpg4DaIA8OEEzt9GRyKQYYu8zu57eMkxykGbJRAYgaDwR9AQcDXeu_lM_WM7XYBjA"
+        ]
+    }
+]
