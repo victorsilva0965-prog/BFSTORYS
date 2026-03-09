@@ -383,5 +383,17 @@
         "imgs": [
             "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8DdfL4qWVUSqdIU_XKa3ljaQt2NspegyiFA20XRnVnEkVmgwYv3kT0kN9kjeZesEUR-I0wFcPijtl4kWfSNN8sGLotkNDyFO0-lIah7LnY9iMaf0jEWpauw"
         ]
+    },
+    {
+        "id": "T3",
+        "nome": "batom",
+        "preco": "R$ 38,90 agora",
+        "preco_loja": "R$ 38.9",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Original. Preço médio na loja: R$ 38.9",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT0uYPJXQxKMm99FObVtPZ9yVFl72nCtovYPUZhFFOCuy88RpcHbHdz0PaGH12iHEMeMKOkzIc"
+        ]
     }
 ]
