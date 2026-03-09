@@ -1,16 +1,5 @@
 [
     {
-        "id": "E01",
-        "nome": "CURREN 8363 LUMINUS",
-        "preco": "R$ 170,40 agora",
-        "tipo": "relógio, masculino, quartz a prova dágua ",
-        "link": "https://s.shopee.com.br/4Av4SYUbQi?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpLn694ELjnu4x4Uh5qDDnA0kQHEZS0PF54Nnfee9KUpOIX5hMoo_x2JYuEi0GkAz-EkY8rv3NK8lKzO61c1Cd22_HaEwNe0wPPawI72LWVGNJtinDXhU8"
-        ]
-    },
-    {
         "id": "E02",
         "nome": "CRRJU Topo Marca De Luxo original Genuíno Masculino  À Prova Dágua  Aço Inoxidável  Simples Relógio Moda Casual ",
         "preco": "R$ 69,99",
