@@ -383,5 +383,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcST-nu1OEqUX-6wag_kmp_U9kUaO9vJji8QuoYGH5L0LMODGftrJKsesLhSP2ZrZL5vfuGNrpKnfLpb1JLFqjzi3JR-24UU"
         ]
+    },
+    {
+        "id": "C5",
+        "nome": "NAVIFORCE NF9249",
+        "preco": "R$ 78,41",
+        "tipo": "relogio",
+        "link": "https://shopee.com.br/opaanlp/263756630/43609254455?__mobile__=1&exp_group=rollout&gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkVEdTU3BlMW9zMXB6bGYrZ0J1VEdQczlyNExHUWczbW4rNC9lWnVWR2dVc2hnWW9VNFh0UC9SSVZmTmlHNE5MQlNGNGpwQWNud3hvUUtRV0hqRWJTbENGejJ0M1haOHI1Szd0MWpBTDR4TVA0R21qVC9MZjBZVHVtS2x5SmpHVzVTdDdCZ2tRMEVvWXZoL1pycnlXVGhZPQ&mmp_pid=an_18321860196&share_channel_code=1&uls_trackid=5547ehm501ud&utm_campaign=id_Lo1gmPBOi3&utm_content=----&utm_medium=affiliates&utm_source=an_18321860196&utm_term=ejstae79c1ps",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScT9qdqfKyNZdaGL4cGAl5bMDw0oc-Ua2VhsNjTr7oelGrTdqW_b9bjbacMq-m1ht9qg1-PPw"
+        ]
     }
 ]
