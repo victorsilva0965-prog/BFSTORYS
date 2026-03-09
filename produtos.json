@@ -1,16 +1,5 @@
 [
     {
-        "id": "C03",
-        "nome": "OPK AÇO 6010",
-        "preco": "R$ 78,46 agora",
-        "tipo": "relógio, aço inoxidável ",
-        "link": "https://s.shopee.com.br/AKVeSHAfhu?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSV0Epx679OFXnxRX95dZTOXMHvuFwpTzH7Q7SdEbcbEV8QULrzmSu5OrYTnSUf4Vgatz7NBNBlP4atUEErZN9ZRv13uYvSuzSCIeBtATwQkDBsaCq2wCDVkA"
-        ]
-    },
-    {
         "id": "C04",
         "nome": "OPK 8135",
         "preco": "R$ 107,97 agora",
@@ -107,17 +96,6 @@
         "specs": "Produto Original - Disponível",
         "imgs": [
             "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTWnfZCpEgcWsR-EC_gQBAdB8eySEbKUr3oZyiKm_7dPZC7OSYzWUcecDuPT2Zik_7tl9fFJXk8qTemAOt9Oqo8SUMBVyAsog"
-        ]
-    },
-    {
-        "id": "C03",
-        "nome": "Relógio masculino prata vintage CASIO",
-        "preco": "R$ 322,91 agora",
-        "tipo": "Relógio estilo vintage",
-        "link": "https://s.shopee.com.br/1gDjVPm6b4",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpT8vap-mcXNEiDB7e81qzjkNhGafj81sMozEkuuJ1l6q221onhOxJr7FDelQN7SL2tPFoMw9AvIJaW2d00m9CNkz0baZpoRhtnDBkPhjnSTD_7_rj_Ge_"
         ]
     },
     {
