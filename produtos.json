@@ -383,5 +383,16 @@
         "imgs": [
             "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8DdfL4qWVUSqdIU_XKa3ljaQt2NspegyiFA20XRnVnEkVmgwYv3kT0kN9kjeZesEUR-I0wFcPijtl4kWfSNN8sGLotkNDyFO0-lIah7LnY9iMaf0jEWpauw"
         ]
+    },
+    {
+        "id": "F4",
+        "nome": "Batom",
+        "preco": "R$ 38,90 agora",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQtLhjfyZ0DbTUt2wbOVoUtoUpz4zXHGei2haWeQal8eqwkH0gWjqbXxQJTdpaHsIa0k9184QcQQ0vZ1yfnw7fTBcbD0UUpaw4hHJutOUxNXrEUnUuBrVpE"
+        ]
     }
 ]
