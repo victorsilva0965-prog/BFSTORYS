@@ -1,16 +1,5 @@
 [
     {
-        "id": "C01",
-        "nome": "OPK STEELGRAPH ",
-        "preco": "R$ 54,78 agora",
-        "tipo": "relógio elegante ",
-        "link": "https://s.shopee.com.br/8Kka4ZElKy?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ2OvEdatYCwEE6QoUd1m4u4ELILCF2AImY4Tqrn304_uvUeoPK1eqjQs2OegT3qXsDQMTHhq9NP4NSJa0jxk9QEmvCTC9YF15aNAe0Zeap0ZGX2wtAin_NWA"
-        ]
-    },
-    {
         "id": "C02",
         "nome": "OPK 6010 STEELGRAPH ",
         "preco": "R$ 199,00",
