@@ -1,16 +1,5 @@
 [
     {
-        "id": "B04",
-        "nome": "NAVIFORCE 9182",
-        "preco": "R$ 259,00 agora",
-        "tipo": "relógio masculino, aço inox analógico digital ",
-        "link": "https://s.shopee.com.br/3VfKJCNYcw?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS02EECN9va_N03XwTuvmA8EzYoYcQmnhvNDG6L6m-4k2dYxQaoz7-Y_eiLmPUs4CkyeESmTJXuUQj4LHVwZmvD0l0J085Vv3aUs6E117bYei9woGX21l3R"
-        ]
-    },
-    {
         "id": "B05",
         "nome": "NAVIFORCE NF9249",
         "preco": "R$ 63,32 agora",
