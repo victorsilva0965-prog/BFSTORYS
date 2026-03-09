@@ -119,5 +119,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQaxCmORuHwpz08fHPLvTcaEapNcgMttDElEx6OLsb6_S5KmIZDQ8ZjEStd9a9FOM-GtweDtdAR5I80Y4djUFgfWxXIepbehppKFoPAvOch"
         ]
+    },
+    {
+        "id": "C05",
+        "nome": "OPK 6003",
+        "preco": "R$ 90,68 agora",
+        "tipo": "relógio aço inoxidável a prova dágua ",
+        "link": "https://s.shopee.com.br/9pZNrRwx7T?share_channel_code=1",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQtaR5U3HsCwT66IwHmgJs_uioOZ7B1nUV8K79XWkN4T5yPD9dmgF4x4pF97b-F1DUSzZhxLdbw"
+        ]
     }
 ]
