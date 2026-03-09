@@ -1,5 +1,6 @@
 :root {
     --primary: #00d2ff;
+    --card: #ff9d00;
     --shopee: #ee4d2d;
     --bg: linear-gradient(180deg, #0f172a 0%, #020617 100%);
     --glass: rgba(255, 255, 255, 0.08);
@@ -38,7 +39,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 */
 
 
-
+  
 
 /* PERSONALIZAÇÃO DO CARD DE TRANSPARÊNCIA (IDÊNTICO AO PRODUCT-SPECS) */
 .price-source-card {
@@ -47,7 +48,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
     padding: 12px;
     margin: 12px 0;
     font-size: 0.8rem;
-    border-left: 4px solid var(--primary); /* A barra lateral Ciano */
+    border-left: 4px solid var(--card); /* A barra lateral Ciano */
     color: #0f172a; /* Cor do texto principal */
 }
 
@@ -60,7 +61,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 }
 
 .source-header i {
-    color: var(--primary); /* Ícone em Ciano */
+    color: var(--card); /* Ícone em Ciano */
     font-size: 1.1rem;
 }
 
@@ -71,7 +72,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 }
 
 .source-link {
-    color: var(--primary);
+    color: var(--card);
     text-decoration: none;
     font-weight: 800;
     font-size: 0.7rem;
@@ -85,6 +86,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 .source-link:hover {
     text-decoration: underline;
 }
+
 
 .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); display: none; align-items: center; justify-content: center; z-index: 3000; padding: 15px; backdrop-filter: blur(8px); }
 .modal-content { background: white; width: 100%; max-width: 400px; border-radius: 30px; overflow: hidden; }
@@ -108,4 +110,3 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); display: none; z-index: 1900; }
 
 @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-                
