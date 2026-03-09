@@ -350,5 +350,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT6q6np9xKc75PqfoDS9AkhsLJ0XldoQZ5M2Fd4LK1pMwVqYDly1VGpWMOEYBMK52euwMCxXhHLcK7-C7UW8clzP5rybWYYBRGv0__swxv2eDBYCqfsl9BN"
         ]
+    },
+    {
+        "id": "P9",
+        "nome": "s24 ultra",
+        "preco": "R$ 3.781,65 agora",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRk73fcN3QtlGQEnoKB3l3V4yBTqAnfjpmRW_qU79usEZ_yv_RRC3GJWhqsgmFWa2wPZmfM6DA9aw2RqkmRgacATaXg4h1mmExQTAUftf4d1RDpTKxs1p-g2Q"
+        ]
     }
 ]
