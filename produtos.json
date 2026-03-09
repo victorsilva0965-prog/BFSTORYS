@@ -1,16 +1,5 @@
 [
     {
-        "id": "B06",
-        "nome": "NAVIFORCE 9218 SEIKO ",
-        "preco": "R$ 104,50",
-        "tipo": "relógio movimento seiko",
-        "link": "https://s.shopee.com.br/5VQOhD7K6J?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSsHHMWyv4rhUytMr0DW1G_rEx623uIv6-G3op8dyKtnWg8z1mUx8FBlWSQgiQS2ARZInoXoOaT0bcesthX-gBNkxYmVK9rCPHiclmgoZ6M"
-        ]
-    },
-    {
         "id": "B07",
         "nome": "NAVIRFORCE MILITARY SPORT ",
         "preco": "R$ 489,11",
