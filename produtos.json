@@ -1,16 +1,5 @@
 [
     {
-        "id": "W01",
-        "nome": "Relógio  digital vintage WR  F91W",
-        "preco": "R$ 157,00",
-        "tipo": "Relógio unissex ",
-        "link": "https://s.shopee.com.br/9zsrQLzH1P",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTWnfZCpEgcWsR-EC_gQBAdB8eySEbKUr3oZyiKm_7dPZC7OSYzWUcecDuPT2Zik_7tl9fFJXk8qTemAOt9Oqo8SUMBVyAsog"
-        ]
-    },
-    {
         "id": "Q01",
         "nome": "Relógio masculino Aqua  preto resistência a água ",
         "preco": "R$ 13,00",
