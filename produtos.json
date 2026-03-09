@@ -207,5 +207,16 @@
         "imgs": [
             "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTWnfZCpEgcWsR-EC_gQBAdB8eySEbKUr3oZyiKm_7dPZC7OSYzWUcecDuPT2Zik_7tl9fFJXk8qTemAOt9Oqo8SUMBVyAsog"
         ]
+    },
+    {
+        "id": "R3",
+        "nome": "SMARTWATCH ULTRA S10 soyouthwatch.br",
+        "preco": "R$ 129,90 agora",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTp5C9QVTzfEnxT2x8mySUo5-X4Lgs0mEDRX7IQCM-y_brTEqyn5EX16w94TBLnbqZmZh_xJsuL8m3IOTRcVjRch9NMYymC"
+        ]
     }
 ]
