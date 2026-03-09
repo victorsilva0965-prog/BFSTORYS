@@ -361,5 +361,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThNecRz1-R30TwJTlnNLNZYaVKZ2Ngr2bCLkONEMr8oLBbRdSmopV27ij_Td2msUSyW63LscLGH2-jR1OiON2kfLzpEkdIYF9nMl2QJPEMPSveaPGHY0yfgRJ5"
         ]
+    },
+    {
+        "id": "D2",
+        "nome": "BINBOND B5011",
+        "preco": "R$ 52,99",
+        "tipo": "relogio",
+        "link": "https://shopee.com.br/opaanlp/1564130116/22494547696?__mobile__=1&exp_group=rollout&gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkU1hZSjF1Ym94QW1tdXlLQVFLQ3hjNW9hM2xHeVpFYURIRUdOL3MzQTAzeGJDMnQyQU1ySCt2WnBib1pKUVJqODVlbS9sR21Kb0Z3Z3EwSVNucU9QNWl5RUhDWmpPTERJbFJ5MkdRZFJlR1RadVBwaE03MHdMZ2ZZY3ZFSE9yaXFkcUJEYWN0U3RvbXRzVm10V2lLeE5rPQ&mmp_pid=an_18321860196&share_channel_code=1&uls_trackid=5547hcmh01ud&utm_campaign=id_CEZSLAp2GJ&utm_content=----&utm_medium=affiliates&utm_source=an_18321860196&utm_term=ejsvgtt9ev15",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSgaDeHirV8d3voOZzUcLtEn2JB48eIQ2-gttzcBAm5UI-EVX_Ynp2Yj8FU_DqSAySdT6tGMPa1_hWeocdcFzrC7yPsSbAlwQ"
+        ]
     }
 ]
