@@ -395,5 +395,17 @@
         "imgs": [
             "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT0uYPJXQxKMm99FObVtPZ9yVFl72nCtovYPUZhFFOCuy88RpcHbHdz0PaGH12iHEMeMKOkzIc"
         ]
+    },
+    {
+        "id": "BT",
+        "nome": "Batom Mate CmaaDu-Hidratante,à prova d'água e de longa duração",
+        "preco": "R$ 16,27 agora",
+        "preco_loja": "R$ 16.27",
+        "tipo": "smart",
+        "link": "https://br.shp.ee/X3yQEtKJ",
+        "specs": "Original. Preço médio na loja: R$ 16.27",
+        "imgs": [
+            "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQy99yTuJka5VZidzifm8L_slimTKSCbLwSUYQIPH3ou2c2OOOKtbbRI6pGzbQylbdk4wTpaqJb1IuogCgLP0NljyG-8_1BkdStWUDCt8cwezGoGR9tiD7A"
+        ]
     }
 ]
