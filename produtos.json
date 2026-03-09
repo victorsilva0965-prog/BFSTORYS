@@ -383,5 +383,16 @@
         "imgs": [
             "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8DdfL4qWVUSqdIU_XKa3ljaQt2NspegyiFA20XRnVnEkVmgwYv3kT0kN9kjeZesEUR-I0wFcPijtl4kWfSNN8sGLotkNDyFO0-lIah7LnY9iMaf0jEWpauw"
         ]
+    },
+    {
+        "id": "26",
+        "nome": "S24 ultra",
+        "preco": "R$ 5.071,65 ",
+        "tipo": "relogio",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://via.placeholder.com/500"
+        ]
     }
 ]
