@@ -1,16 +1,5 @@
 [
     {
-        "id": "B01",
-        "nome": "SMARTWATCH ULTRA S10 ",
-        "preco": "R$ 124,10",
-        "tipo": "smart/relógio ",
-        "link": "https://s.shopee.com.br/1VuE9ZUJYT?share_channel_code=1",
-        "specs": "Produto Original - Disponível",
-        "imgs": [
-            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS61IbLhz-pNhuLZOVkRCKDIfDzMG81Ml0djfab7_ahJ9B0-o5lh3eZG77XxtKbF6LaEnw1ogQPAgnRCjEPk7paCJfsSyzRiuhM9B0o1dbKGXRq8MOf_i4Pzw"
-        ]
-    },
-    {
         "id": "B02",
         "nome": "NAVIFORCE CHRONOGRAPH  AÇO ",
         "preco": "R$ 171,79 agora",
