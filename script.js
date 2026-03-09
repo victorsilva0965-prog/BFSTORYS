@@ -73,9 +73,18 @@ function openModal(id) {
     document.getElementById('mSpecs').innerText = p.specs;
     document.getElementById('carousel').innerHTML = `<img src="${p.imgs[0]}" style="width:100%; height:100%; object-fit:cover;">`;
 
+    // LÓGICA DE TRANSPARÊNCIA: Link para o Google Shopping
+    const googleUrl = `https://www.google.com/search?tbm=shop&q=${encodeURIComponent(p.nome)}`;
+    document.getElementById('mGoogleLink').href = googleUrl;
+
+    // LÓGICA DO BOTÃO SHOPEE
     const btnShopee = document.getElementById('mShopeeBtn');
-    btnShopee.style.display = (p.link && p.link !== "#") ? "flex" : "none";
-    if(p.link) btnShopee.href = p.link;
+    if (p.link && p.link !== "#") {
+        btnShopee.style.display = "flex";
+        btnShopee.href = p.link;
+    } else {
+        btnShopee.style.display = "none";
+    }
 
     document.getElementById('modalOverlay').style.display = 'flex';
     document.body.style.overflow = 'hidden';
@@ -113,8 +122,6 @@ function sendOrder() {
     window.open(`https://wa.me/558788044077?text=${encodeURIComponent(texto)}`);
 }
 
-// O SEGREDO PARA NÃO TRAVAR E EXIBIR OS PRODUTOS:
-// Usamos o DOMContentLoaded mas com uma pequena proteção de tempo
 document.addEventListener('DOMContentLoaded', () => {
     carregarDados();
 });
