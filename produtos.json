@@ -372,5 +372,16 @@
         "imgs": [
             "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThNecRz1-R30TwJTlnNLNZYaVKZ2Ngr2bCLkONEMr8oLBbRdSmopV27ij_Td2msUSyW63LscLGH2-jR1OiON2kfLzpEkdIYF9nMl2QJPEMPSveaPGHY0yfgRJ5"
         ]
+    },
+    {
+        "id": "D02",
+        "nome": "BINBOND B5011",
+        "preco": "R$ 126,26",
+        "tipo": "smart",
+        "link": "#",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSgaDeHirV8d3voOZzUcLtEn2JB48eIQ2-gttzcBAm5UI-EVX_Ynp2Yj8FU_DqSAySdT6tGMPa1_hWeocdcFzrC7yPsSbAlwQ"
+        ]
     }
 ]
