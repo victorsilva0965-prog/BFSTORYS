@@ -383,5 +383,16 @@
         "imgs": [
             "https://via.placeholder.com/500"
         ]
+    },
+    {
+        "id": "F02",
+        "nome": "Mouse ped gamer abstrato  MK Premium  com bordas costuradas ",
+        "preco": "R$ 29,99",
+        "tipo": "smart",
+        "link": "https://s.shopee.com.br/4Av6siecFe?share_channel_code=1",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRkhb9BC7CHFBn7kDEZs3EXyc3rJ2uKRPf6MEb92Wm9og6HpTuKbhBRB7yb7guGA4ssMhpQiYKl8cHIVIDAk1CqcGhAy_HB9UoGjh9u2xkHtBx61I_muftK"
+        ]
     }
 ]
