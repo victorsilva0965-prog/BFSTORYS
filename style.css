@@ -85,7 +85,7 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 .product-card::after {
     content: "20% OFF";
     position: absolute;
-    top: 10px; /* Alinhado com a badge de ID */
+    top: 3px; /* Alinhado com a badge de ID */
     right: -30px; /* Posicionado no canto direito */
     background-color: var(--shopee); /* Vermelho Shopee para contraste */
     color: white;
