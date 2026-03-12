@@ -34,10 +34,19 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 
 /* --- GRID E CARDS DE PRODUTO --- */
 .main-content { display: grid; width: 92%; max-width: 1200px; margin: 10px auto 100px; gap: 15px; grid-template-columns: repeat(2, 1fr); }
-.product-card { background: var(--card-white); border-radius: 25px; padding: 10px; color: #1e293b; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.4); transition: 0.3s; }
+.product-card { 
+    background: var(--card-white); 
+    border-radius: 25px; 
+    padding: 10px; 
+    color: #1e293b; 
+    position: relative; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4); 
+    transition: 0.3s; 
+    overflow: hidden; /* Adicionado para conter a faixa de desconto */
+}
 .product-card img { width: 100%; height: 160px; object-fit: cover; border-radius: 20px; background: #f1f5f9; }
 .product-card h3 { font-size: 0.75rem; margin: 10px 0 5px; height: 35px; overflow: hidden; font-weight: 600; color: #0f172a; }
-.id-badge { position: absolute; top: 15px; left: 15px; background: #0f172a; color: var(--primary); padding: 2px 8px; border-radius: 6px; font-size: 9px; font-weight: 800; border: 1px solid var(--primary); }
+.id-badge { position: absolute; top: 15px; left: 15px; background: #0f172a; color: var(--primary); padding: 2px 8px; border-radius: 6px; font-size: 9px; font-weight: 800; border: 1px solid var(--primary); z-index: 10; }
 
 /* --- SIDEBAR ORIGINAL --- */
 .sidebar { position: fixed; top: 0; left: -100%; width: 85%; max-width: 300px; height: 100%; background: #0f172a; z-index: 2000; transition: 0.4s; box-shadow: 20px 0 50px rgba(0,0,0,0.5); border-right: 1px solid rgba(255,255,255,0.1); }
@@ -79,23 +88,23 @@ header { position: sticky; top: 0; z-index: 1000; background: rgba(15, 23, 42, 0
 #cart-fab { position: fixed; bottom: 30px; right: 25px; background: #22c55e; color: white; width: 65px; height: 65px; border-radius: 50%; display: none; align-items: center; justify-content: center; box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4); z-index: 1500; border: 2px solid rgba(255,255,255,0.2); }
 #cart-counter { position: absolute; top: -5px; right: -5px; background: #ef4444; color: white; width: 24px; height: 24px; border-radius: 50%; font-size: 11px; font-weight: 800; display: flex; align-items: center; justify-content: center; border: 2px solid white; }
 
-
-
-/* --- NOVO: IMPLEMENTAÇÃO DA FAIXA DE DESCONTO (MANTENDO O ORIGINAL) --- */
+/* --- NOVO: IMPLEMENTAÇÃO DA FAIXA DE DESCONTO --- */
 .product-card::after {
     content: "20% OFF";
     position: absolute;
-    top: 3px; /* Alinhado com a badge de ID */
-    right: -30px; /* Posicionado no canto direito */
-    background-color: var(--shopee); /* Vermelho Shopee para contraste */
+    top: 3px; 
+    right: -30px; 
+    background-color: var(--shopee); 
     color: white;
     font-size: 10px;
     font-weight: 800;
     padding: 3px 30px;
-    transform: rotate(45deg); /* Gira a faixa */
+    transform: rotate(45deg); 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    z-index: 5; /* Garante que fique acima da imagem */
+    z-index: 5; 
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+
 @keyframes slideUp { from { transform: translateY(50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+                
