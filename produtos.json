@@ -482,5 +482,16 @@
         "imgs": [
             "https://via.placeholder.com/500"
         ]
+    },
+    {
+        "id": "R9",
+        "nome": "Carregador  de bateria rápido de bateria compacto 12000mAh cabo de carregamento duplo ",
+        "preco": "R$ 39,99",
+        "tipo": "smart",
+        "link": "https://s.shopee.com.br/50UHhWqBqF",
+        "specs": "Produto Original - Disponível",
+        "imgs": [
+            "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSO5rxXvcUcHO73U4KVsOSPoGSM7tfbpn-FDPevKrUtuTQp0VDda00H1Zj6nQ"
+        ]
     }
 ]
